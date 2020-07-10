@@ -3,18 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_alphabet.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: beramush <beramush@student.wethinkcode.co.za>                    +#+  +:+       +#+        */
+/*   By: beramush <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/07/09 17:27:13 by beramush          #+#    #+#             */
-/*   Updated: 2020/07/09 17:58:36 by beramush         ###   ########.fr       */
+/*   Created: 2020/07/10 10:41:59 by beramush          #+#    #+#             */
+/*   Updated: 2020/07/10 13:06:05 by beramush         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
-void ft_putchar(void)
-{
-	write(1,&c,1);
-}
-void ft_print_alphabet(void)
+
+
+void	ft_putchar(char c);
+
+void	ft_print_alphabet(void)
 {
 	char letter;
 
@@ -25,8 +24,5 @@ void ft_print_alphabet(void)
 		letter++;
 	 }
 }
-int main()
-{ 
-	ft_print_alphabet();
-	return(0);
-}
+
+
